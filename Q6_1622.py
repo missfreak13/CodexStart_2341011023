@@ -3,7 +3,7 @@
 #creating strings
 #https://cses.fi/problemset/task/1622
 
-string= input("Enter a string:")
+string= input()
 letters= list(string)
 words= set()
 def ways(word, letters):

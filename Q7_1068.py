@@ -3,7 +3,7 @@
 #Weird Algorithm
 #https://cses.fi/problemset/task/1068
 
-n = int(input("Enter a number till which the program will run: "))
+n = int(input())
 print(n, end=" ")
 while n!=1:
     if n%2==0:

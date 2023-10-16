@@ -3,7 +3,7 @@
 #coin piles
 #https://cses.fi/problemset/task/1754
 
-t= int(input("Enter the number of tests:"))
+t= int(input())
 for i in range(t):
     r,c = map(int, input().split())
     if r<c:

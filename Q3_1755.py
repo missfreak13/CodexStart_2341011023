@@ -3,7 +3,7 @@
 #pallindrome reorder
 #https://cses.fi/problemset/task/1755
 
-string=input("Enter a string with random alphabets:")
+string=input()
 pair=[]
 solo=[]
 for char in string:
@@ -16,4 +16,4 @@ reorder=''.join(pair)+''.join(solo)+''.join(pair)[::-1]
 if reorder==reorder[::-1]:
     print(reorder)
 else:
-    ("NO SOLUTION")
+    print("NO SOLUTION")

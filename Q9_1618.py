@@ -3,7 +3,7 @@
 #trailing zeros
 #https://cses.fi/problemset/task/1618
 
-n= int(input("Enter a number:"))
+n= int(input())
 count= 0
 i= 5
 while(n/i>= 1):

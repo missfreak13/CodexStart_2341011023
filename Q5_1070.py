@@ -3,7 +3,7 @@
 #permutations
 #https://cses.fi/problemset/task/1070
 
-n=int(input("Enter the number till where the program will run: "))
+n=int(input())
 if n==1:
     print(1)
 elif n<=3:
@@ -16,4 +16,5 @@ else:
             e.append(i)
         else:
             o.append(i)
-print(*(o+e))
+x=(o+e)
+print(*(x))

@@ -3,7 +3,7 @@
 #apple division
 #https://cses.fi/problemset/task/1623
 
-n= int(input("Enter a number:"))
+n= int(input())
 w= list(map(int, input().split()))
 def md(index, a, b):
     if index >= len(w):

@@ -3,7 +3,7 @@
 #repetitions
 #https://cses.fi/problemset/task/1069
 
-string=input("Enter a string consisting of A,C,G and T:")
+string=input()
 concur=""
 count=0
 maxcount=0
